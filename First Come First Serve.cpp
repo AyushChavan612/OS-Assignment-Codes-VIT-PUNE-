@@ -25,6 +25,10 @@ int main()
       cin >> p[i].bt;
    }
 
+   sort(p.begin(),p.end(),[](process a , process b){
+      return a.at < b.at;
+   });
+   
    cout << left << setw(12) << "Process no"
         << setw(8) << "AT"
         << setw(8) << "BT"
