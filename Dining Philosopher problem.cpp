@@ -1,3 +1,7 @@
+/*
+ Author : Ayush Chavan
+ CF ID : YSlow
+*/
 #include<iostream>
 #include<semaphore.h>
 #include<pthread.h>
